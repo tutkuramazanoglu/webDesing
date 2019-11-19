@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button {
+    background-color: darkmagenta;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#navigation-first {
+    position: relative;
+}
+
+.text-style {
+    color: darkgray;
+    font-family:"Franklin Gothic Demi Cond"; 
+    text-transform: uppercase;
+    font-size: 8px;
+}
+.text-style1 {
+    color: darkgray;
+    font-family:"Franklin Gothic Demi Cond"; 
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav-img {
+    width: 100%;
+    height: 500px;
+}
+
+.nav-img2 {
+    width: 35px;
+    height: 35px;
+}
+
+#a-first {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+#a-second {
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+#a-third {
+    position: absolute;
+    top: 0;
+    right: 400px;
+}
+
+#a-fourth {
+    position: absolute;
+    top: 0;
+    right: 220px;
+}
+
+#a-fifth {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.navigation-second {
+    position: fixed;
+    left: 30px;
+    top: 50px;
+
+}
+
+.horizantial-line {
+    border: 2px solid gray;
+}
+
+.nav-second {
+    float: right;
+    padding-right: 4px;
+    padding-left: 81px;
+
+}
+
+#footer {
+    position: relative;
+    top: 1160px;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    width: 75px;
+    height: 75px;
+}
+
+#copy-right {
+    position: absolute;
+    left: 350px;
+    padding-top: 0;
+    text-align: center;
+}
+
+#footer-contanct {
+    position: absolute;
+    right: 350px;
+}
+
+#social-media {
+    position: absolute;
+    right: 0;
+}
+
+#facebook {
+    position: absolute;
+    top: 15px;
+    right: 135px;
+    width: 65px;
+    height: 65px;
+}
+
+#instagram {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 65px;
+    height: 65px;
+}
+
+#snapchat {
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    width: 65px;
+    height: 65px;
+}
+
+#twitter {
+    position: absolute;
+    top: 85px;
+    right: 135px;
+    width: 65px;
+    height: 65px;
+}
+
+#swarm {
+    position: absolute;
+    top: 85px;
+    right: 5px;
+    width: 65px;
+    height: 65px;
+}
+
+#pinterest {
+    position: absolute;
+    top: 85px;
+    right: 75px;
+    width: 65px;
+    height: 65px;
+}
+
+#offers {
+    position: relative;
+    width: 100%;
+    top: 75px;
+    left: 12%;
+}
+
+#offer-img {
+    width: 150px;
+    height: auto;
+}
+
+#offers-right {
+    position: absolute;
+    right: 15%;
+    top: 0;
+}
+
+#offer-writing {
+    position: absolute;
+    right: 10%;
+    top: 105px;
+}
+
+#offer-option {
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+#winter-offer {
+    width: 400px;
+    height: 300px;
+    left: 2%;
+}
+
+#winter-offer-info {
+    position: absolute;
+    left: 35%;
+    top: 0;
+
+}
+
+#honeymoon-offer {
+    position: absolute;
+    top: 350px;
+    width: 400px;
+    height: 300px;
+    left: 0;
+}
+
+#honeymoon-offer-info {
+    position: absolute;
+    left: 35%;
+    top: 350px;
+}
+
+#earlybooking-offer {
+    position: absolute;
+    top: 700px;
+    width: 400px;
+    height: 300px;
+    left: 0;
+}
+
+#earlybooking-offer-info {
+    position: absolute;
+    left: 35%;
+    top: 700px;
+}
+
+#extended-offer {
+    position: absolute;
+    top: 1050px;
+    width: 400px;
+    height: 300px;
+    left: 0;
+}
+
+#extended-offer-info {
+    position: absolute;
+    left: 35%;
+    top: 1050px;
+}
+
+h4 {
+    color: lightgray;
+    font-family: Castellar;
+}
+
+h2 {
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+
+p {
+    font-family: Century;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+h5 {
+    font-family: Castellar;
+}
