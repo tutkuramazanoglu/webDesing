@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: #34d8eb;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+button {
+    background-color: darkmagenta;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.video-style{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+}
+
+#navigation-first {
+    position: relative;
+}
+
+.text-style {
+    color: white;
+    font-weight: bold;
+    font-family:"Franklin Gothic Demi Cond"; 
+    text-transform: uppercase;
+    font-size: 8px;
+}
+.text-style1 {
+    color: white;
+    font-weight: bold;
+    font-family:"Franklin Gothic Demi Cond"; 
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.nav-img {
+    width: 100%;
+    height: 500px;
+}
+
+.nav-img2 {
+    width: 35px;
+    height: 35px;
+}
+
+#a-first {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+#a-second {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+}
+
+#a-third {
+    position: absolute;
+    top: 25px;
+    right: 400px;
+}
+
+#a-fourth {
+    position: absolute;
+    top: 25px;
+    right: 200px;
+}
+
+#a-fifth {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.navigation-second {
+    position: fixed;
+    left: 30px;
+    top: 50px;
+   
+}
+.horizantial-line{
+    border: 2px solid gray;
+}
+.nav-second {
+    float: right;
+    padding-top: 5px;
+    padding-right: 4px;
+    padding-left: 70px;
+
+}
+#table-style {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+     
+
+}
+.td-style {
+    border-right: 4px solid gray;
+    height: 35px;
+}
+
+.information {
+    position: relative;
+    width: 100%;
+    top: 50px;
+    left: 3%;
+}
+
+#contact {
+    position: absolute;
+    right: 5%;
+    top: 0;
+
+}
+
+strong {
+    font-family: "Times New Roman";
+    font-size: 25px;
+
+}
+
+.container {
+    position: relative;
+    top: 70px;
+    padding-left: 50px;
+}
+
+#container-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 250px;
+}
+
+#container-img2 {
+    position: absolute;
+    top: 195px;
+    right: 250px;
+    width: 200px;
+    height: 200px;
+}
+
+.blog-text {
+    display: inline-block;
+}
+
+.container-slider {
+    position: relative;
+    top: 105px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 500%;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        left: 0;
+    }
+    16%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    36%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    56%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    76%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    96%{
+        left: -400%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+.slide {
+    position: relative;
+    width: 20%;
+    float: left;
+    height: 100vh;
+}
+
+.slider-text {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 6em;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+}
+
+.slide {
+    background-size: cover;
+}
+
+.slide:nth-child(1) {
+    background:url(images/index/slider1.jpg);
+}
+.slide:nth-child(2) {
+    background:url(images/index/slider2.jpg);
+}
+.slide:nth-child(3) {
+    background:url(images/index/slider3.jpg);
+}
+.slide:nth-child(4) {
+    background:url(images/index/slider4.jpg);
+}
+.slide:nth-child(5) {
+    background:url(images/index/slider5.jpg);
+}
+
+#container-destination{
+    position: relative;
+    top: 160px;
+    left: 105px;
+    text-align: justify;
+}
+#destination-arrow{
+     padding-left: 330px;
+    font-size: 25px;
+    color: purple;
+}
+#destination-arrow2{
+     padding-left: 300px;
+    font-size: 25px;
+    color: purple;
+}
+#destination-arrow3{
+     padding-left: 345px;
+    font-size: 25px;
+    color: purple;
+}
+#destination-img1{
+    position: absolute;
+    top: 165px;
+    right:400px;
+    width: 250px;
+    height: 150px;
+}
+#destination-img2{
+    position: absolute;
+    top: 15px;
+    right:145px;
+    width: 250px;
+    height: 300px;
+}
+#destination-img3{
+    position: absolute;
+    top: 15px;
+    right:400px;
+    width: 250px;
+    height: 150px;
+}
+.container-accommodation{
+    position: relative;
+    top: 280px;
+    left: 105px;
+}
+#accommodation-info{
+    position: absolute;
+    top: 60px;
+    right: 140px;
+    
+}
+#accomoditon-arrow{
+     padding-left: 235px;
+    font-size: 25px;
+    color: purple;
+    
+}
+#accomoditon-arrow2{
+     padding-left: 200px;
+    font-size: 25px;
+    color: purple;
+    
+}
+#footer{
+    position: relative;
+    top: 350px;
+}
+.footer-logo{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    width: 75px;
+    height: 75px;
+}
+#copy-right{
+    position: absolute;
+    left: 350px;
+    padding-top: 0; 
+    text-align: center;
+}
+#footer-contanct{
+    position: absolute;
+    right: 350px;
+}
+#social-media{
+    position: absolute;
+    right: 0;
+}
+#facebook{
+    position: absolute;
+    top: 15px;
+    right: 135px;
+    width: 65px;
+    height:65px;
+}
+#instagram{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 65px;
+    height:65px;
+}
+#snapchat{
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    width: 65px;
+    height:65px;
+}
+#twitter{
+    position: absolute;
+    top: 85px;
+    right: 135px;
+    width: 65px;
+    height:65px;
+}
+#swarm{
+    position: absolute;
+    top: 85px;
+    right: 5px;
+    width: 65px;
+    height:65px;
+}
+#pinterest{
+    position: absolute;
+    top: 85px;
+    right: 75px;
+    width: 65px;
+    height:65px;
+}
+h2{
+    font-family: "Comic Sans MS";
+    font-weight: normal;
+}
+
+h4{
+    font-family: Castellar;
+}
+
+p{
+    font-family: Century;
+    line-height: 1.7;
+}
+strong{
+    font-family: "Estrangelo Edessa";
+}
+h5 {
+    font-family: Castellar;
+}
