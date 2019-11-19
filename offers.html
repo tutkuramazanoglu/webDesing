@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div id="navigation-first">
+        <a id="a-first" href="" class="text-style">Home</a>
+        <a id="a-second" href="" class="text-style">Language</a>
+        <a id="a-fourth" href="" class="text-style">Find a Hotel</a>
+        <a id="a-fifth" href="" class="text-style" onclick="alert('We are routering to you your reservation page!!')">My Reservation</a>
+        <div class="navigation-second">
+            <a href="index.html"><img class="nav-img2" src="images/index/logo.jpg" alt="LogoofHotel"></a>
+            <div class="nav-second text-style1"><button type="button">BOOK NOW</button></div>
+            <a class="nav-second text-style1" href="contact.html" >CONTACT</a>
+            <a class="nav-second text-style1" href="spa.html" >WELLNESS&SPA</a>
+            <a class="nav-second text-style1" href="offers.html" >OFFERS</a>
+            <a class="nav-second text-style1" href="accommodation.html" >ACCOMMODATION</a>
+            <a class="nav-second text-style1" href="gallery.html" >GALLERY</a>
+            <a class="nav-second text-style1" href="destination.html" >DESTINATION</a>
+        </div>
+    </div>
+    <div id="question">
+        <h4>Six Senses Laamu</h4>
+
+        <h2>Have a question for us?</h2>
+        <h6>You know what to do! Drop us a line and we'll get back to you as soon as possible.</h6>
+        <div id="contact">
+            <p><strong>Contact</strong><br><br>
+                Olhuveli Island<br>
+                Laamu Atoll<br>
+                Maldives<br>
+                reservations-laamu@sixsenses.com<br>
+        </div>
+    </div>
+    <div id="form">
+        <select name="request" id="request">
+            <option value="none" selected> 
+            Please Choose Your Request</option>
+            <option value="request1">Make or Change a Reservation</option>
+            <option value="request2">Spa Inquiry</option>
+            <option value="request3">Dining Inquiry</option>
+            <option value="request4">General Inquiry</option>
+            <option value="request5">Others</option>
+        </select>
+        <select name="title" id="title">
+            <option value="none" selected>Title</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Miss">Miss</option>
+            <option value="Dr.">Dr.</option>
+            <option value="Prof.">Prof.</option>
+        </select>
+        <input id="firstname" type="text" name="first_name" value="First Name">
+        <input class="text-type" id="lastname" type="text" name="lastname" value="Last Name">
+        <input type="text" name="phone" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" value="Phone">
+        <input id="email" type="text" name="email" value="Email">
+        <button id="send" type="button">SEND</button>
+    </div>
+    <footer id="footer">
+        <hr class="horizantial-line">
+        <a href="index.html"><img class="footer-logo" src="images/index/logo.jpg" alt="LogoofHotel"></a>
+        <div id="copy-right">
+            <h5>Tutku Ramazanoglu</h5>
+            <h5 style>&copy;2019</h5>
+        </div>
+        <div id="footer-contanct">
+            <p><strong>Contact</strong><br><br>
+                Olhuveli Island<br>
+                Laamu Atoll<br>
+                Maldives<br>
+                reservations-laamu@sixsenses.com<br>
+        </div>
+        <div id="social-media">
+            <a href="https://www.facebook.com"><img id="facebook" src="images/index/facebook.jpg" alt="facebook"></a>
+            <a href="https://www.instagram.com/?hl=tr"><img id="instagram" src="images/index/instagram.jpg" alt="instagram"></a>
+            <a href="https://www.snapchat.com/"><img id="snapchat" src="images/index/snapchat.jpg" alt="instagram"></a>
+            <a href="https://twitter.com/login?lang=tr"><img id="twitter" src="images/index/twitter.png" alt="twitter"></a>
+            <a href="https://tr.swarmapp.com/"><img id="swarm" src="images/index/swarm.png" alt="swarm"></a>
+            <a href="https://tr.pinterest.com/?autologin=true"><img id="pinterest" src="images/index/pinterest.png" alt="pinterest"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
